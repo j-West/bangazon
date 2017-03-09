@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/j-West/nodeTemplate/issues"
   },
-  "homepage": "https://github.com/j-West/nodeTemplate#readme"
+  "homepage": "https://github.com/j-West/nodeTemplate#readme",
+  "dependencies": {
+  "sqlite3": "^3.1.8"
+}
 }
