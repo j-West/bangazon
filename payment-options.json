@@ -1,0 +1,8 @@
+{
+  "paymentOptions": [
+    { "name": "Visa", "account_num": "11111" },
+    { "name": "American Express", "account_num": "22222" },
+    { "name": "MasterCard", "account_num": "33333" },
+    { "name": "Checking", "account_num": "44444" }
+  ]
+}

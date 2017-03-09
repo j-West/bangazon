@@ -1,0 +1,9 @@
+{
+  "customers": [
+    { "first_name": "Dwight", "last_name": "Schrute", "street_address": "first Rd", "city": "nashville", "state": "TN", "postal_code": "38291", "phone_number": "1111111111" },
+    { "first_name": "Jim", "last_name": "Yates", "street_address": "second Rd", "city": "richmond", "state": "KY", "postal_code": "40476", "phone_number": "2222222222" },
+    { "first_name": "Joel", "last_name": "Legg", "street_address": "third Rd", "city": "Denver", "state": "CO", "postal_code": "94830", "phone_number": "3333333333" },
+    { "first_name": "Michael", "last_name": "Tamborino", "street_address": "fourth Rd", "city": "New York", "state": "NY", "postal_code": "20394", "phone_number": "4444444444" },
+    { "first_name": "Billy", "last_name": "Connoly", "street_address": "beetz Rd", "city": "beet beet City", "state": "BE", "postal_code": "83375", "phone_number": "5555555555" }
+  ]
+}

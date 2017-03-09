@@ -1,0 +1,8 @@
+{
+  "products": [
+    { "name": "Pencil & Notebook", "price": "1.99" },
+    { "name": "Good Car", "price": "1000.89" },
+    { "name": "1 Share of BEETZ By Billy", "price": "1000000000000" },
+    { "name": "Bad Car", "price": "100.79" }
+  ]
+}
