@@ -11,7 +11,7 @@ const errorHandler = err => {
 }
 
 // Creating table for bangazon db
-
+const addTables = () => {
 db.run(`CREATE TABLE IF NOT EXISTS customers
       (customer_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
       first_name TEXT NOT NULL,
@@ -36,7 +36,7 @@ db.run(`CREATE TABLE IF NOT EXISTS orders
       (order_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
       customer_id INT NOT NULL,
       payment_option_id INT NOT NULL,
-      paid_in_full TEXT NOT NULL,
+      paid_in_full INTEGER NOT NULL,
       FOREIGN KEY(payment_option_id) REFERENCES payment_options(payment_option_id),
       FOREIGN KEY(customer_id) REFERENCES customers(customer_id))`, errorHandler);
 
@@ -46,6 +46,8 @@ db.run(`CREATE TABLE IF NOT EXISTS order_line_items
       product_id INT NOT NULL,
       FOREIGN KEY(order_id) REFERENCES orders(order_id),
       FOREIGN KEY(product_id) REFERENCES products(product_id))`, errorHandler);
+};
 
+// addTables();
 
-module.exports = { errorHandler };
+module.exports = { errorHandler, addTables };

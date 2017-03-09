@@ -1,8 +1,8 @@
 {
   "orders": [
-    { "customer_id": "1", "payment_option_id": "1", "paid_in_full": "true" },
-    { "customer_id": "2", "payment_option_id": "2", "paid_in_full": "false" },
-    { "customer_id": "3", "payment_option_id": "3", "paid_in_full": "false" },
-    { "customer_id": "1", "payment_option_id": "1", "paid_in_full": "true" }
+    { "customer_id": "1", "payment_option_id": "1", "paid_in_full": "1" },
+    { "customer_id": "2", "payment_option_id": "2", "paid_in_full": "-1" },
+    { "customer_id": "3", "payment_option_id": "3", "paid_in_full": "-1" },
+    { "customer_id": "1", "payment_option_id": "1", "paid_in_full": "1" }
   ]
 }

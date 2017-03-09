@@ -30,7 +30,7 @@ const addTestData = () => {
 
   orders.forEach(({customer_id, payment_option_id, paid_in_full}) => {
     db.run(`INSERT INTO orders VALUES (
-      NULL, ${customer_id}, ${payment_option_id}, "${paid_in_full}")`, errorHandler)
+      NULL, ${customer_id}, ${payment_option_id}, ${paid_in_full})`, errorHandler)
   });
 
   orderLineItems.forEach(({order_id, product_id}) => {
@@ -39,4 +39,6 @@ const addTestData = () => {
   });
 };
 
-addTestData();
+// addTestData();
+
+module.exports = { addTestData }
